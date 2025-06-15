@@ -9,7 +9,7 @@ st.title("Prediksi SoC Baterai VRLA dengan SVR")
 st.markdown("Aplikasi ini menggunakan model Support Vector Regression (SVR) untuk memprediksi State of Charge (SoC) berdasarkan input parameter baterai.")
 
 # Load model
-model_svr =joblib.load ('model_svr.pkl')
+svr_model  =joblib.load ('model_svr.pkl')
 df = joblib.load  ('df.pkl')
 
 # Sidebar input user
